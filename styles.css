@@ -152,3 +152,44 @@ a:hover { color: var(--link-hover); }
 }
 
 .ranking p { margin-top: 4px; }
+
+.project-links { margin: 16px 0 24px; }
+
+/* Carousel */
+.carousel { margin-top: 32px; }
+
+.slide { display: none; }
+.slide.active { display: block; }
+
+.slide-img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  display: flex;
+}
+
+.slide figcaption {
+  margin-top: 8px;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.carousel-nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.carousel-btn {
+  background: none;
+  border: none;
+  font: inherit;
+  color: var(--link);
+  cursor: pointer;
+  padding: 0;
+  transition: color 0.15s;
+}
+.carousel-btn:hover { color: var(--link-hover); }
+
+.carousel-count { color: var(--muted); }
