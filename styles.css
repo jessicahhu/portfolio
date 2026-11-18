@@ -193,3 +193,18 @@ a:hover { color: var(--link-hover); }
 .carousel-btn:hover { color: var(--link-hover); }
 
 .carousel-count { color: var(--muted); }
+
+/* Thin rule under section headers */
+.about h2,
+.projects h2 {
+  border-bottom: 1px solid var(--placeholder);
+  padding-bottom: 4px;
+  margin-bottom: 6px;
+}
+
+/* Bold name and section headers */
+.name,
+.about h2,
+.projects h2 {
+  font-weight: 600;
+}
