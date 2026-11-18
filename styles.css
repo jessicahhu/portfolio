@@ -129,6 +129,8 @@ a:hover { color: var(--link-hover); }
 
 .post p { line-height: 1.6; }
 
+.post > p + p { margin-top: 16px; }
+
 .category {
   font-style: normal;
   font-weight: 700;
